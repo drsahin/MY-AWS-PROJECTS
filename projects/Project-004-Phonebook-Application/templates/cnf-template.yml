@@ -42,7 +42,7 @@ Resources:
       LaunchTemplateData: 
         ImageId: ami-0947d2ba12ee1ff75
         InstanceType: t2.micro
-        KeyName: Firstkey
+        KeyName: 
         SecurityGroupIds: 
           - !GetAtt WebServerSecurityGroup.GroupId
         TagSpecifications: 
@@ -147,8 +147,8 @@ Resources:
       Engine: MySQL
       DBInstanceClass: db.t2.micro #Required
       EngineVersion: 8.0.19
-      MasterUsername: admin
-      MasterUserPassword: dursun-1
+      MasterUsername: 
+      MasterUserPassword: 
       MultiAZ: false
       Port: 3306
       PubliclyAccessible: true
